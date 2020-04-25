@@ -216,5 +216,6 @@ git clone https://github.com/rezadkim/dark-sms
 cd dark-sms
 pip2 install mechanize
 pip2 install requests
+pip2 install bs4
 python2 sms.py
 fi
