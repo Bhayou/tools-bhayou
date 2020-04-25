@@ -214,7 +214,7 @@ if [ $pil = '20' ]
 then
 git clone https://github.com/rezadkim/dark-sms
 cd dark-sms
-pip install mechanize
-pip install requests
+pip2 install mechanize
+pip2 install requests
 python2 sms.py
 fi
