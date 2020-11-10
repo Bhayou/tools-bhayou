@@ -108,6 +108,7 @@ fi
 if [ $pil = '8' ]
 then
 pkg install ruby
+Y
 gem install lolcat
 git clone https://github.com/Bhayou/ngewe-online
 cd ngewe-online
