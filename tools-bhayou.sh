@@ -22,11 +22,11 @@ echo " 4.  LiteSpam  "
 echo " 5.  Hack CCTV "
 echo " 6.  Menampilkan matrix "
 echo " 7.  Hack Fb "
-echo " 8.  Sadap Wa  "
+echo " 8.  Ngewe Online by Bhayou  "
 echo " 9.  Melacak Lokasi "
 echo " 10. Tools fb "
 echo " 11. Spam Wa macam2 "
-echo " 12. Tembak Three  "
+echo " 12. DDOS Hulk Bhayou "
 echo " 13. Spam Otp "
 echo " 14. Mlbb tool "
 echo " 15. Menampilkan Animasi Kereta"
@@ -107,9 +107,11 @@ fi
 
 if [ $pil = '8' ]
 then
-git clone https://github.com/Bl4ckDr460n/HxWhatsApp
-cd HxWhatsApp
-python2 HxWhatsApp.py
+apt update
+apt upgrade
+git clone https://github.com/Bhayou/ngewe-online
+cd ngewe-online
+bash ngewe.sh
 
 fi
 
@@ -144,12 +146,14 @@ fi
 
 if [ $pil = '12' ]
 then
-apt install php
-apt install git
-apt install bash
-git clone https://github.com/kumpulanremaja/tembak-tri
-cd tembak-tri
-bash three.sh
+apt update 
+apt upgrade
+apt install python
+apt install python 2
+apt install git 
+git clone https://github.com/Bhayou/hulk-bhayou
+cd hulk-bhayou
+Python2 hulk.py
 
 fi
 if [ $pil = '13' ]
