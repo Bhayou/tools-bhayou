@@ -21,7 +21,7 @@ echo " 3.  Spam Wa  "
 echo " 4.  LiteSpam  "
 echo " 5.  Hack CCTV "
 echo " 6.  Menampilkan matrix "
-echo " 7.  Hack Fb "
+echo " 7.  Root Termux "
 echo " 8.  Ngewe Online by Bhayou  "
 echo " 9.  Melacak Lokasi "
 echo " 10. Tools fb "
@@ -97,18 +97,16 @@ fi
 
 if [ $pil = '7' ]
 then
-pip2 install requests
-pip2 install mechanize
-git clone https://github.com/ARIYA-CYBER/NEW
-cd NEW
-python2 FbNew.py
+apt install git 
+git clone https://github.com/Bhayou/Root-Termux
+cd Root-Termux
+bash root21.sh
 
 fi
 
 if [ $pil = '8' ]
 then
 pkg install ruby
-Y
 gem install lolcat
 git clone https://github.com/Bhayou/ngewe-online
 cd ngewe-online
