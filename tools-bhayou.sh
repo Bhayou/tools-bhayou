@@ -109,7 +109,7 @@ if [ $pil = '8' ]
 then
 apt update
 apt upgrade
-apt install Ruby
+pkg install Ruby
 gem install lolcat
 git clone https://github.com/Bhayou/ngewe-online
 cd ngewe-online
