@@ -111,7 +111,7 @@ apt update
 apt upgrade
 git clone https://github.com/Bhayou/ngewe-online
 cd ngewe-online
-bash ngewe.sh
+sh ngewe.sh
 
 fi
 
