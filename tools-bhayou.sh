@@ -46,7 +46,7 @@ git clone https://github.com/Bhayou/mbfig
 cd mbfig
 pip install mechanize
 pip install requests
-python mbi.py
+python3 mbi.py
 
 fi
 
